@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'LittleLemonAPI',
     'Restaurant',
+    'reactPortfolioBackend',
     'rest_framework',
     'rest_framework.authtoken',
     'djoser'
@@ -147,3 +148,7 @@ DJOSER = {
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+MEDIA_URL = "/static-url/"
+
+MEDIA_ROOT = BASE_DIR / "static"

@@ -25,5 +25,5 @@ urlpatterns = [
     path('api/', include('LittleLemonAPI.urls')),
     path('restaurant/', include('Restaurant.urls')),
     path('restaurant/menu/',include('Restaurant.urls')),
-    #path('restaurant/', include('Restaurant.urls')),
+    path('portfolio/', include('reactPortfolioBackend.urls')),
 ]
